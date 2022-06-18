@@ -61,7 +61,7 @@ from typing import (
 
 
 if TYPE_CHECKING:
-    from toi7 import PhoneAbstractValidator
+    from chain_of_responsibility_interpeter import PhoneAbstractValidator
 
 
 class InterpretatorAttributeError(Exception):
